@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Goals and Key Skills</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+        }
+        .copy-btn {
+            background-color: #4CAF50;
+        }
+        .print-btn {
+            background-color: #2196F3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Career Goals and Key Skills</h2>
+    <p><strong>English:</strong></p>
+    <p>As a mechanical manager specializing in HVAC, fire fighting, and plumbing systems, my career aspirations focus on leading innovative projects that enhance operational efficiency and sustainability. I strive to optimize system performance, reduce energy consumption, and ensure compliance with safety and regulatory standards. My key skills include project management, technical problem-solving, and a deep understanding of mechanical systems and their integration within complex infrastructures. My goal is to drive advancements in mechanical engineering that contribute to a safer and more sustainable built environment.</p>
+    
+    <p><strong>Arabic:</strong></p>
+    <p>كمدير ميكانيكي متخصص في أنظمة التدفئة والتهوية وتكييف الهواء وأنظمة مكافحة الحرائق والسباكة، تركز طموحاتي المهنية على قيادة المشاريع المبتكرة التي تعزز الكفاءة التشغيلية والاستدامة. أسعى إلى تحسين أداء الأنظمة، وتقليل استهلاك الطاقة، وضمان الامتثال لمعايير السلامة واللوائح التنظيمية. تشمل مهاراتي الرئيسية إدارة المشاريع، وحل المشكلات التقنية، وفهم عميق للأنظمة الميكانيكية ودمجها ضمن البنى التحتية المعقدة. هدفي هو دفع التقدم في الهندسة الميكانيكية التي تساهم في بيئة مبنية أكثر أمانًا واستدامة.</p>
+    
+    <button class="copy-btn" onclick="copyText()">Copy</button>
+    <button class="print-btn" onclick="window.print()">Print</button>
+</div>
+
+<script>
+    function copyText() {
+        const text = `As a mechanical manager specializing in HVAC, fire fighting, and plumbing systems, my career aspirations focus on leading innovative projects that enhance operational efficiency and sustainability. I strive to optimize system performance, reduce energy consumption, and ensure compliance with safety and regulatory standards. My key skills include project management, technical problem-solving, and a deep understanding of mechanical systems and their integration within complex infrastructures. My goal is to drive advancements in mechanical engineering that contribute to a safer and more sustainable built environment.\n\nكمدير ميكانيكي متخصص في أنظمة التدفئة والتهوية وتكييف الهواء وأنظمة مكافحة الحرائق والسباكة، تركز طموحاتي المهنية على قيادة المشاريع المبتكرة التي تعزز الكفاءة التشغيلية والاستدامة. أسعى إلى تحسين أداء الأنظمة، وتقليل استهلاك الطاقة، وضمان الامتثال لمعايير السلامة واللوائح التنظيمية. تشمل مهاراتي الرئيسية إدارة المشاريع، وحل المشكلات التقنية، وفهم عميق للأنظمة الميكانيكية ودمجها ضمن البنى التحتية المعقدة. هدفي هو دفع التقدم في الهندسة الميكانيكية التي تساهم في بيئة مبنية أكثر أمانًا واستدامة.`;
+        navigator.clipboard.writeText(text).then(() => {
+            alert('Text copied to clipboard');
+        });
+    }
+</script>
+
+</body>
+</html>
